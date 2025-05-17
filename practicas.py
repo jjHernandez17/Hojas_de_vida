@@ -389,6 +389,7 @@ def menu():
         print("2. Buscar hoja de vida")
         print("3. Modificar hoja de vida")
         print("4. Exportar Hoja de Vida")
+        print("5. Salir")
         opcion = input("Ingrese una opción: ")
         if opcion == "1":
             Crear_Hoja_De_Vida()
@@ -398,6 +399,8 @@ def menu():
             Modificar_HDV()
         elif opcion == "4":
             exportar_hoja_txt()
+        elif opcion == "5":
+            break 
         else:
             print("Opción inválida.")
 
